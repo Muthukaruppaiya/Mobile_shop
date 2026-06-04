@@ -78,13 +78,13 @@ export default function Footer() {
               <Info size={12} color="#eceae0" style={{ marginRight: '4px' }} />
               <span>Boutique Location Map</span>
             </div>
-            
+
             {/* SVG Vector Map */}
             <div className="vector-map-container">
               <svg viewBox="0 0 300 160" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                 {/* Background layout */}
                 <rect width="300" height="160" rx="6" fill="#2f2420" />
-                
+
                 {/* Street Lines */}
                 <path d="M 0,40 L 300,40" stroke="#4a3b34" strokeWidth="12" fill="none" />
                 <path d="M 160,0 L 160,160" stroke="#4a3b34" strokeWidth="12" fill="none" />
@@ -93,16 +93,16 @@ export default function Footer() {
                 {/* Street Labels */}
                 <text x="20" y="32" fill="#bc704f" fontSize="7" fontWeight="bold">THENI ROAD</text>
                 <text x="170" y="145" fill="#bc704f" fontSize="7" fontWeight="bold">MADURAI HIGHWAY</text>
-                
+
                 {/* Landmark 1: Bus Stand */}
                 <rect x="30" y="65" width="60" height="30" rx="3" fill="#3d3029" />
                 <text x="36" y="83" fill="#eceae0" fontSize="7" fontWeight="800">BUS STAND</text>
-                
+
                 {/* Store Pin (Glowing Rust) */}
                 <circle cx="160" cy="80" r="16" fill="rgba(189, 110, 64, 0.25)" />
                 <circle cx="160" cy="80" r="8" fill="#bd6e40" />
                 <circle cx="160" cy="80" r="3" fill="#faf9f5" />
-                
+
                 {/* Store Label */}
                 <rect x="180" y="68" width="100" height="24" rx="4" fill="#bd6e40" />
                 <text x="186" y="79" fill="#faf9f5" fontSize="6.5" fontWeight="900">Sri Mobiles</text>
@@ -146,7 +146,7 @@ export default function Footer() {
       <div className="footer-brand-backdrop">
         <h2 className="footer-brand-title">PERIYAKULAM</h2>
       </div>
-          <div className="footer-dev-credit">Developed by Gypsy Code</div>
+      <div className="footer-dev-credit">Developed by Gypsy Coder</div>
     </footer>
   );
 }

@@ -4,34 +4,34 @@ import { Quote } from 'lucide-react';
 const REVIEWS = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Tech Enthusiast, Theni",
-    text: "Muthukaruppaiya Mobiles has the best customer service in Theni! Bought my iPhone 15 Pro Max here, and they helped set up all my apps and transfer data instantly. Delivery was so fast!",
-    image: "https://i.pravatar.cc/300?img=49",
+    name: "Karthikeyan S.",
+    role: "Software Engineer, Theni",
+    text: "Muthukaruppaiya Mobiles is the best mobile shop in Theni! Got my Samsung Galaxy S24 Ultra at a great price. They installed tempered glass perfectly and transferred all my data. Super fast service!",
+    image: "https://randomuser.me/api/portraits/men/44.jpg",
     rotation: 3
   },
   {
     id: 2,
-    name: "Ramanathan K.",
-    role: "Business Owner, Periyakulam",
-    text: "Excellent repair service. My screen was shattered, and they replaced it with a premium AMOLED display in under an hour. Highly recommended in Periyakulam!",
-    image: "https://i.pravatar.cc/300?img=11",
+    name: "Meenakshi R.",
+    role: "Teacher, Periyakulam",
+    text: "My Redmi phone screen cracked and they replaced it in just 45 minutes. Very affordable price compared to other shops. Staff is very polite and trustworthy. Highly recommended!",
+    image: "https://randomuser.me/api/portraits/women/26.jpg",
     rotation: -2
   },
   {
     id: 3,
-    name: "Priya Dharshini",
-    role: "College Student, Theni",
-    text: "The 3D gallery display on this site is amazing, and shopping was so smooth! Ordered a OnePlus 12 via WhatsApp, and got it delivered right to my hostel. Genuine products at local rates.",
-    image: "https://i.pravatar.cc/300?img=32",
+    name: "Muruganantham V.",
+    role: "Business Owner, Uthamapalayam",
+    text: "Bought original Type-C charger and a new back cover for my Vivo phone. Very good quality products at local rates. Also got my battery replaced — working like a brand new phone now!",
+    image: "https://randomuser.me/api/portraits/men/36.jpg",
     rotation: 4
   },
   {
     id: 4,
-    name: "David Martinez",
-    role: "Pro Photographer",
-    text: "Stunning camera lens details on their showcase. Muthukaruppaiya Mobiles has the best flagship collections and camera accessories in the district. Their service is truly professional.",
-    image: "https://i.pravatar.cc/300?img=60",
+    name: "Kavitha Devi",
+    role: "College Student, Theni",
+    text: "Ordered mobile cover and earphones via WhatsApp — delivery was super fast! Best shop for accessories in Theni. Tempered glass fitting was free! Will definitely come back again.",
+    image: "https://randomuser.me/api/portraits/women/55.jpg",
     rotation: -3
   }
 ];

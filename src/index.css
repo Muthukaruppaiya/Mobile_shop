@@ -130,6 +130,14 @@ section {
   justify-content: center;
 }
 
+/* ── Services section must NOT be flex column (it uses its own grid) ── */
+.services-section {
+  display: block !important;
+  min-height: auto !important;
+  flex-direction: unset !important;
+  justify-content: unset !important;
+}
+
 @media (max-width: 768px) {
   section {
     padding: 4rem 1.5rem;
